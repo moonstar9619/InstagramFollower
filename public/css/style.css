@@ -1,0 +1,16 @@
+body {
+    background-attachment: fixed!important;
+    background: linear-gradient(rgba(196,102,0,.6),rgba(155,89,182,.6));
+}
+.custom-nav, .custom-h5{
+    background-color: #8e44ad;
+}
+.custom-btn-shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.custom-margin-top {
+    margin-top: 9% !important;
+}
+.custom-color{
+    color: #eeeeee;
+}
