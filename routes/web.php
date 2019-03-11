@@ -15,8 +15,8 @@ Route::get('/', 'Frontend\HomeController@index')->name('home');
 
 Route::group(['prefix' => 'frontend', 'namespace' => 'Frontend'], function () {
     Route::get('/create', 'OrderController@create')->name('frontend.order.create');
-    Route::get('/packageList/{packageList}/services/', 'OrderController@getServices'); // orye post kardane in kar kon
-    Route::get('/serviceList/{serviceId}/services/', 'OrderController@getLinkWayService'); // orye post kardane in kar kon
+    Route::get('/packageList/{packageList}/services/', 'OrderController@getServices'); 
+    Route::get('/serviceList/{serviceId}/services/', 'OrderController@getLinkWayService'); 
     Route::post('/create', 'OrderController@store')->name('frontend.order.store');
 });
 
