@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark custom-nav rounded-bottom">
-    <a class="navbar-brand" href="http://instagram.sefaresh.net/">
-        <small>instagram.sefaresh.net</small>
+    <a class="navbar-brand" href="#">
+        <small>instagram</small>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
